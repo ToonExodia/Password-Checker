@@ -1,8 +1,7 @@
-# **Enhanced Password Strength and Compromise Checker**
+# **Password strength checker with compromised password detection**
 
-A Python program to evaluate password strength and check if passwords are compromised using both local wordlists and the Have I Been Pwned (HIBP) API.  
+A Python program to evaluate password strength and check if passwords are compromised using both local wordlists and the Have I Been Pwned (HIBP) database via their API.  
 
-This project demonstrates Python concepts like file handling, API requests, and dynamic wordlist detection.
 
 ---
 
@@ -21,7 +20,7 @@ This project demonstrates Python concepts like file handling, API requests, and 
 ## **Installation**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/password-checker.git
+   git clone https://github.com/ToonExodia/Password-Checker/blob/main/passwdChecker.py
    cd password-checker
 2. Install dependencies:
 - Python 3.7 or higher is required.
